@@ -28,9 +28,10 @@ services:
       - key: DB_NAME
         # value: db_name
         sync: false
-      - key: DB_TABLE_PREFIX
+      #- key: DB_TABLE_PREFIX
+      - key: DB_SSL_MODE
         # value: alist_
         sync: false
-      - key: CDN
+      #- key: CDN
         # value: https://npm.elemecdn.com/alist-web@$version/dist
-        sync: false
+        #sync: false
